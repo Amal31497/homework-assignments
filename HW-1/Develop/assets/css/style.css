@@ -1,0 +1,202 @@
+/* This statement formats the entire document 
+giving it no room for padding and margins making 
+it fill up the whole webpage */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* The next 2 statements give default format for all hyperlinks and paragraphs */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* This statement contains background color formatting for main part of the webpage */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* The top-header class represents the hat of the webpage including the navigation part
+and a list of navigation tabs that transfer user to parts of the webpage accordingly */
+/* This one formats the background color and font type and color */
+.top-header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* This statement pushes the official name of the company 
+to the left side of the webpage header in order to leave 
+room for the navigation bar */
+.top-header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* The following statement formats three leters within the 
+name header itself, adds more context to what the page is about */
+.top-header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This statement is the navigation part of the header and formats it accordingly:
+1. Lines all navigation links up in line to the right side of the webpage header
+2. Spesifies format characteristics of the links(font type, size, family)
+3. Positions it accordingly in the webpage header
+*/
+.top-header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.top-header nav ul {
+    list-style-type: none;
+}
+
+.top-header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This statement calls for the photo that comes right after the webpage header and formats it accordingly */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* This is the main part of the webpage and contains 4 main sections(3 middle sections + 1 sidebar)
+** Sidebar CSS statement is called later in the file */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+/* The following statement is nmore specific for each section of the main part of the webpage
+Specifies positining and font */
+.content .main-part {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Each section in the main part has a visual included and this statement puts a height ceiling 
+in case the image does not load */
+.content .main-part img {
+    display: block;
+    max-height: 200px;
+}
+
+/* Float-left class is included as an attribute to 2 of the visuals within the sections and pushes 
+the visual either to the left-side of the section or to the right side of the section */
+.content .main-part .float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Float-right class is included as an attribute to 1 of the visuals within the sections and pushes 
+the visual either to the left-side of the section or to the right side of the section */
+.content .main-part .float-right {
+    float: right;
+    margin-left: 25px;
+} 
+
+
+/* Each section in the main part has a header that is formated according to the statement's specifications, 
+likewise this statement formats the position of the header as its width is reduced */
+.content .main-part .main-header {
+    margin-bottom: 25px;
+    font-size: 36px;
+    width: 55%;
+}
+
+/* One of the section's header was a little wider than others so I had to format its width separately */
+.content .main-part #online-r-m {
+    margin-bottom: 25px;
+    font-size: 36px;
+    width: 45%;
+}
+
+/* To make the content withing the sections to stand out, I have formatted paragraphs within the 
+sections accordingly by increasing font size and narrowing it on the screen */
+.content .main-part p {
+    font-size: 18px;
+    width: 91%;
+}
+
+
+/* The following statement transitions to formatting the sidebar section
+The statement pre-formats font and makes position adjustments. Width and height are also specified */
+aside {
+    margin-right: 25px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Benefits class represents each element in the sidebar section as a "benefit" . 
+This statement gives same margin and color formatting for each "benefit" in the sidebar section*/
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Each "benefit" element in the sidebar section has a header and the following statement formats
+ font size, and positioning of the header in its parent element */
+.benefits header {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Each "benefit" has a brief paragraph which is also has positioning and width formatting */
+.benefits p {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 82%;
+}
+
+/* Each "benefit" has an image attached that is formatted based on positioning and width */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* The last part of the webpage is footer and it has text formatting which includes font size 
+and font family. Also the positioning of the elements withing the footer is formatted */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
