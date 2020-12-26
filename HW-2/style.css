@@ -3,12 +3,44 @@ img {
     height: 200px !important;
     margin-right: 10px !important;
 }
+
 p {
     margin-left: 15px !important;
     margin-right: 15px !important;
 }
+
 h4 {
     margin-left: 15px !important;
     margin-right: 15px !important;
     padding-top: 15px !important;
 }
+
+hr {
+    margin-left: 15px !important;
+    margin-right: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.card {
+    margin-top: 65px !important;
+    min-width: 380px !important;
+}
+
+.container {
+    max-width: 660px !important;
+    margin-left: 8px !important;
+    display:inline-flexbox !important;
+}
+@media screen and (max-width:400px) {
+    .container {
+      width:100% !important;
+      margin:auto !important;
+    }
+}
+
+/* Contact.html */
+    #exampleInputMessage {
+        height: 80px !important;
+    }
+
+

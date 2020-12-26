@@ -13,4 +13,12 @@ First commit for this project.
 4. Bootstrap version 4.5 is used in this project.
 
 Made by Amal Janabayev.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+12/26/20
+
+Second commit for this project.
+1. Finalized responsiveness for both: Index.html and Contact.html. Set maximum width for their main bootstrap based component(card). 
+2. Set foundation for porfolio file and put basic layout in it.
+3. Added several customized CSS attributes for h4 and hr tags and card and container classes. 
+4. Added 1 media querie for screens under 400 px to display card component with almost full width.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
