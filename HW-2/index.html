@@ -4,55 +4,72 @@
   <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Staatliches&display=swap" rel="stylesheet">
+    
   </head>
-
-  <body>
- 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Amal Janabayev</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav ml-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Navigation bar -->
+  <body id="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Amal Janabayev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Three navigation tabs: About, Portfolio, Contact -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      
-      <div class="row">
-        <div class="col-xs-10 col-sm-8">
-          <div class="container">
-            <div class="card">
-                <div class="card-title">
-                    <h4>About me</h4>
-                    <hr>
-                </div>
-                <div class="clearfix">
-                  <img src="placeholder.jpeg" class="col-xs-6 img-responsive float-start mb-3 me-3 ms-3">
-                  <p>Fusce sed lacus eget nisi pretium tincidunt. Suspendisse eleifend congue enim, vitae mollis justo pharetra quis. Maecenas dignissim neque ut nibh maximus convallis. Fusce tincidunt quam ut nunc condimentum, sed imperdiet turpis semper. Vivamus ac nisl vehicula, scelerisque velit eget, gravida ipsum. Nunc egestas justo nec risus ultrices dapibus non a mauris. In sem sapien, interdum eget mauris vitae, varius gravida justo. Mauris ac diam id massa lacinia fringilla sed vel nisl. Donec sollicitudin magna in ultrices mattis.</p>
-                  </br>
-                  <p>Fusce sed lacus eget nisi pretium tincidunt. Suspendisse eleifend congue enim, vitae mollis justo pharetra quis. Maecenas dignissim neque ut nibh maximus convallis. Fusce tincidunt quam ut nunc condimentum, sed imperdiet turpis semper. Vivamus ac nisl vehicula, scelerisque velit eget, gravida ipsum. Nunc egestas justo nec risus ultrices dapibus non a mauris. In sem sapien, interdum eget mauris vitae, varius gravida justo. Mauris ac diam id massa lacinia fringilla sed vel nisl. Donec sollicitudin magna in ultrices mattis.</p>
-                </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="row justify-content-center">
+      <div class="col-xs-10 col-sm-8">
+        <div class="container">
+          <div class="card bg-transparent">
+            <div class="card-title">
+              <h4>About me</h4>
+              <hr>
+            </div>
+            <div class="clearfix">
+              <img src="IMG_6978.jpeg" class="col-xs-6 img-responsive float-start mb-3 me-3 ms-3" id='me'>
+              <p>My name is Amal Janabayev and originally I am from Kazakhstan. I have moved to US when I was 17 to attend a small college in Illinois for which I was swimming competitively. Couple years later I transfered to Indiana Univeristy and focused on education. I picked Economics as a major and graduated in 2018. A little after my graduation I packed my car, said goodbye to all my friends and drove across the country to Seattle. My life in Seattle was a groundbreaking experience which led me to the Tech world.</p>
+              </br>
+              <p>My pofessional experience includes a variety of fields. I have tried myself in different roles and, quite honestly, enjoyed all of them. My personality is driven by task oriented results and hence the positions I have been filling required just that. Two years of working as a personal trainer and almost a year as a Real Estate Agent is where one would find the highlights of my career path. Tech world is fascinating to me and has many milestones that excite me the more I learn about them.</p>
             </div>
           </div>
         </div>
       </div>
-
-
+    </div>
+    <!-- Footer with media links -->
+    <footer class="footer justify-content-center mt-auto py-3 bg-transparent">
+      <div class="container">
+        <div class="row">
+          <div class="col flex">
+            <a href="https://www.linkedin.com/in/amaljanabayev/"><img src="instagram-icon.png" alt=""></a>
+            <a href="https://www.instagram.com/amamamdj/"><img src="linkedin-icon.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+      
   </body>
 
 </html>

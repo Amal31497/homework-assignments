@@ -21,4 +21,4 @@ Second commit for this project.
 2. Set foundation for porfolio file and put basic layout in it.
 3. Added several customized CSS attributes for h4 and hr tags and card and container classes. 
 4. Added 1 media querie for screens under 400 px to display card component with almost full width.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

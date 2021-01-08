@@ -1,6 +1,33 @@
+/* Changes background on all pages */
+#background {
+    background-color: #72a0f0 !important;
+}
+/* Formatting for just the porfoio images */
+.portfolio-images {
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 img {
-    width: 200px !important;
-    height: 200px !important;
+  width: 40px;
+  height: 40px;
+}
+.nav-link {
+    color: black !important;
+}
+
+a {
+    font-family: 'Staatliches', cursive !important;
+    font-size: 22px !important;
+    
+}
+#me {
+    width: 250px !important;
+    height: 347px !important;
     margin-right: 10px !important;
 }
 
@@ -24,12 +51,16 @@ hr {
 .card {
     margin-top: 65px !important;
     min-width: 380px !important;
+    color: whitesmoke;
+    border-color: wheat !important;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .container {
     max-width: 660px !important;
-    margin-left: 8px !important;
-    display:inline-flexbox !important;
+    margin-left: auto !important;
+    /* display:inline-flexbox !important; */
 }
 @media screen and (max-width:400px) {
     .container {

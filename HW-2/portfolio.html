@@ -5,48 +5,81 @@
 
     <meta charset="UTF-8">
     <title>Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Staatliches&display=swap" rel="stylesheet">
   </head>
 
-  <body>
- 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Amal Janabayev</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav ml-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <body id="background">
+ <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Amal Janabayev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Content -->
+     <div class="container">
+      <div class="card w-xs-50 bg-transparent">
+        <div class="card-title">
+          <h4>Places I worked at</h4>
+          <hr>
+      </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-xs-8 ">
+            <div class="row">
+              <img src="airbus.png" class="portfolio-images" alt="Airbus">
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-8">
+            <div class="row">
+              <img src="fitness.png" class="portfolio-images" alt="24HourFitness">
+            </div>
           </div>
         </div>
-      </nav>
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6">
-                <img src="placeholder.jpeg" alt="">
-                <img src="placeholder.jpeg" alt="">
-                <img src="placeholder.jpeg" alt="">
-              </div>
-              <div class="col-sm-6">
-                <img src="placeholder.jpeg" alt="">
-                <img src="placeholder.jpeg" alt="">
-                <img src="placeholder.jpeg" alt="">
-              </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-xs-8 ">
+            <div class="row">
+              <img src="small-logo.jpg" class="portfolio-images" alt="Windermere Real Estate">
+            </div>
           </div>
+          <div class="col-sm-4 col-xs-8">
+            <div class="row">
+              <img src="wine.jpeg" class="portfolio-images" alt="Total Wine">
+            </div>
+          </div>
+        </div>
       </div>
-      
-
+     </div>
+<!-- Footer with medie links -->
+    <footer class="footer justify-content-center mt-auto py-3 bg-transparent">
+      <div class="container">
+        <div class="row">
+          <div class="col flex">
+            <a href="https://www.linkedin.com/in/amaljanabayev/"><img src="instagram-icon.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/amamamdj/"><img src="linkedin-icon.png" alt="instagram"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
+
 </html>
